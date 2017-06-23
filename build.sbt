@@ -22,7 +22,7 @@ ensimeIgnoreMissingDirectories in ThisBuild := true
 ensimeJavaFlags += "-Xmx4g"
 
 //autoCompilerPlugins := true
-addCompilerPlugin("org.scalameta" % "paradise" % "3.0.0-M9" cross CrossVersion.full)
+//addCompilerPlugin("org.scalameta" % "paradise" % "3.0.0-M9" cross CrossVersion.full)
 
 lazy val freestyle_study = (project in file("."))
   .settings(commonSettings: _*)
